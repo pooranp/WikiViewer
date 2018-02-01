@@ -1,0 +1,31 @@
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  
+  <head>
+    <title>Wikipedia Viewer</title>
+	  <link rel="stylesheet" type="text/css" href="design.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  
+  </head>
+  <body>
+    <div class="container">
+    <h1>WIKIPEDIA VIEWER</h1>
+      <div id="iconRandom">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" id="randomLinkTxt">
+          <img src="http://vectorlogofree.com/wp-content/uploads/2014/09/49404-wikipedia-logotype-of-earth-puzzle-icon-vector-icon-vector-eps.png">
+        </a>
+		    <p id="iconCap">CLICK THE ICON TO VIEW A RANDOM ARTICLE</p>
+      </div>
+      <div id="searchTool">
+		  <input type="text" id="searchFld" value="Search Here..." autocomplete="off">
+    <button id="searchBtn" type="button">SEARCH
+        </button>
+        </div>
+      <ul id="searchResults">
+      </ul>
+      <p id="author">Designed & Coded by: Pooran Patel</p> 
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
